@@ -10,17 +10,17 @@ h1 {
 }
 
 .loading {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
-.posts-container {
+.posts-container, .comments-container {
   width: 100%;
   padding: 1rem;
 }
 
-.post {
+.post, .comment {
   padding: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
   box-shadow: 5px 5px #aaaaaa;
   border-radius: 8px;
   border: 1px solid #aaaaaa;
@@ -34,4 +34,23 @@ h1 {
 .post-body {
   margin-top: 0.5rem;
   font-size: 16px;
+}
+
+.view-comments-link {
+  font-weight: bold;
+  color: #551a8b;
+}
+
+.comment-heading, .post-heading {
+  font-size: 23px;
+  font-weight: normal;
+}
+
+.author {
+  font-size: 1.3rem;
+}
+
+.comment-body {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
 }

@@ -15,6 +15,8 @@ const Posts = ({ posts, loading, error, getPosts }) => {
 
   return (
     <div className="posts-container">
+      <h3 className="post-heading">Posts</h3>
+      <hr />
       {renderPosts()}
     </div>
   );
