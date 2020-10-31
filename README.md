@@ -1,4 +1,4 @@
-Redux Thunk Example.
+# Redux Thunk Example.
 
 # Getting Started with Create React App
 
