@@ -1,6 +1,37 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
   width: 80%;
   margin: 0 auto;
   padding-top: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+.loading {
+  font-size: 1.5rem;
+}
+
+.posts-container {
+  width: 100%;
+  padding: 1rem;
+}
+
+.post {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 5px 5px #aaaaaa;
+  border-radius: 8px;
+  border: 1px solid #aaaaaa;
+
+}
+
+.post-title {
+  font-size: 25px;
+}
+
+.post-body {
+  margin-top: 0.5rem;
+  font-size: 16px;
 }
